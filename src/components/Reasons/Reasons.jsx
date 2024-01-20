@@ -7,8 +7,7 @@ import image4 from "../../assets/image4.png";
 import nb from "../../assets/nb.png";
 import adidas from "../../assets/adidas.png";
 import nike from "../../assets/nike.png";
-import { FiCheckCircle } from "react-icons/fi";
-
+import tick from '../../assets/tick.png'
 
 const Reasons = () => {
   return (
@@ -29,19 +28,19 @@ const Reasons = () => {
 
         <div className="details-r">
           <div>
-            <FiCheckCircle color="red" size="30"/>
+            <img src={tick} alt="" />
             <span>MÁS DE +140 ENTRENADORES EXPERTOS</span>
           </div>
           <div>
-          <FiCheckCircle color="red" size="30"/>
+          <img src={tick} alt="" />
             <span>ENTRENA DE MANERA MÁS INTELIGENTE Y RÁPIDA QUE ANTES</span>
           </div>
           <div>
-          <FiCheckCircle color="red" size="30"/>
+          <img src={tick} alt="" />
             <span>1 PROGRAMA GRATIS PARA NUEVOS MIEMBROS</span>
           </div>
           <div>
-          <FiCheckCircle color="red" size="30"/>
+          <img src={tick} alt="" />
             <span>SOCIOS CONFIABLES</span>
           </div>
         </div>
