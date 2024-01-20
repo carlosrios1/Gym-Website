@@ -77,11 +77,11 @@
     height: 2rem;
 }
 
-.partners-r {
+.partners {
     display: flex;
     gap: 1rem;
 }
 
-.partners-r>img {
+.partners>img {
     width: 2.5rem;
 }
