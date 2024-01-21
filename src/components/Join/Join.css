@@ -42,11 +42,11 @@
     background-color: transparent;
     border: none;
     outline: none;
-    color: white;
+    color: var(--lightgray);
 }
 
 ::placeholder {
-    color: var(--lightgrayz);
+    color: var(--lightgray);
 }
 
 .btn-j {

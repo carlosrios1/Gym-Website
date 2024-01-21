@@ -44,3 +44,11 @@
 .btn:hover {
   cursor: pointer;
 }
+
+.blur {
+  background: #F65959;
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -9;
+}
